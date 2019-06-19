@@ -1,0 +1,9 @@
+  .item{
+    width: 33%;
+    height: auto;					
+    box-sizing: border-box;	
+    float:left;
+    padding: 10px 10px;
+   
+   
+  }
