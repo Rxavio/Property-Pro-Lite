@@ -1,55 +1,67 @@
 
 :root {
-    --primaryColor: #f09d51;
-      --mainWhite: #fff;
-      --mainBlack: #222;
-      --mainGrey: #ececec;
-      --mainSpacing: 0.1rem;
-      --mainTransition: all 0.3s linear;
-    }
+  --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+  }
+  .body{
+    background: var(--mainWhite);
+  }
 
-    
+  
 .login-page{
-    width: 350px;
-    height:400px;
-    padding: 10% 0 0;
-    margin: auto;
+  width: 400px;
+  height:400px;
+  padding: 10% 0 0;
+  margin: auto;
 }
 
 
 .input-container {
- 
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
+
+display: flex;
+width: 100%;
+height: auto;
+margin-bottom: 15px;
 }
 
 
 
 .input-field {
-  background: var(--mainWhite);
-  width: 100%;
-  padding: 10px;
-  outline: none;
+background: var(--mainGrey);
+width: 100%;
+padding: 10px;
+outline: none;
+border: 1px solid #999;
 }
 
 .input-field:focus {
-  border: 2px solid dodgerblue;
+border: 1px solid var(--primaryColor);
 }
 
-/* Set a style for the submit button */
 .btn {
-  background-color: dodgerblue;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+background-color: var(--primaryColor);
+color: var(--mainWhite);
+letter-spacing: var(--mainSpacing);
+border-radius: 5px;
+padding: 15px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+text-transform: uppercase;
 }
 
 .btn:hover {
-  opacity: 1;
+color: var(--mainBlack);
+}
+p{
+text-align: center;
+}
+p a{
+color: var(--primaryColor);
+font-size: 18px;
 }
