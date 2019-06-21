@@ -19,6 +19,20 @@
   
   }
 
+  .mainheader{
+   background:var(--mainGrey);
+
+}
+
+.mainheader img{
+    height: 50px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    margin-left: 45%;
+    border: 1px solid var(--primaryColor);
+
+}
 .mainheader nav{
   background: #666;
     height: 40px;
