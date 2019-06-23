@@ -23,16 +23,6 @@
    background:var(--mainGrey);
 
 }
-
-.mainheader img{
-    height: 50px;
-    border-radius: 50px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    margin-left: 45%;
-    border: 1px solid var(--primaryColor);
-
-}
 .mainheader nav{
   background: #666;
     height: 40px;
@@ -41,6 +31,7 @@
 .mainheader nav ul{
     list-style: none;
     margin: 0 auto;
+    
    
 }
 .mainheader nav ul li{
@@ -66,7 +57,7 @@
 
 .container{
    min-height: calc(80vh - 40px);
-  background: url("../images/back2.jpg") center/cover no-repeat;
+  background: url("../images/house13.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,14 +202,14 @@ input[type=text],select{
     letter-spacing: var(--mainSpacing);
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 5px;
     margin-bottom: 10px;
   }
   
   .card button:hover {
   
-    transform: scale(1.09);
+    transform: scale(1.06);
     transition: var(--mainTransition);
   }
   .card button a{
@@ -232,6 +223,8 @@ input[type=text],select{
   .card img:hover{
     opacity: 0.8;
   }
+
+  
 
 
   /*footer*/
