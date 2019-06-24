@@ -22,5 +22,4 @@ Property Pro Lite contains several features such as:
 9. User can view a specific property advert.
 
 
-
-https://xavioo.github.io/prolite/
+https://xavioo.github.io/propertypro/
