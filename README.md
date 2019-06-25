@@ -22,3 +22,7 @@ Property Pro Lite contains several features such as:
 8. User can view all properties of a specific type - 2-bedroom, 3 bedroom, mini flat etc.
 9. User can view a specific property advert.
 
+
+
+https://xavioo.github.io/propertypro/
+
